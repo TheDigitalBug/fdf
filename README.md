@@ -17,7 +17,7 @@ $> make
 $> ./fdf map
 ```
 
-# SAMPLE MAP:
+# Sample Map:
 ```
 0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0
 0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0
@@ -32,13 +32,13 @@ $> ./fdf map
 0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0
 ```
 
-# RESOURCES:
+# Resources:
 ```
 $> cd resources/maps
 $> cd resources/players
 ```
 
-# HOT KEYS
+# Hot Keys:
 The following key are used to move the camera:
   * `I`, `K` : Rotate along the X-axis
   * `J`, `L` : Rotate along the Y-axis
@@ -46,7 +46,3 @@ The following key are used to move the camera:
   * `A`, `D` : Translate along the X-axis
   * `W`, `S` : Translate along the Y-axis
   * `+`, `-` : Translate along the Z-axis (Numerical Pad)
-
-# USAGE:
-  - $> make
-  - $> ./fdf map
