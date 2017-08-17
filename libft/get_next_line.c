@@ -15,7 +15,7 @@
 static char		*ft_removeline(long i, char *tmp)
 {
 	long j;
-
+	
 	j = 0;
 	if (tmp[i] == '\0')
 	{
@@ -41,7 +41,7 @@ static char		*ft_strcatination(char *tmp, char *buf)
 {
 	long	a[2];
 	char	*new_tmp;
-
+	
 	a[1] = 0;
 	a[0] = 0;
 	if (tmp != NULL)
@@ -69,7 +69,7 @@ static char		*ft_strcatination(char *tmp, char *buf)
 static int		ft_sendline(char **tmp, char **line)
 {
 	long i;
-
+	
 	i = 0;
 	while ((((*tmp)[i]) != '\n') && (((*tmp)[i]) != '\0'))
 		i++;
@@ -105,7 +105,7 @@ int				get_next_line(const int fd, char **line)
 	long		ret;
 	char		buf[BUFF_SIZE];
 	static char	**tmp;
-
+	
 	if ((read(fd, buf, 0) == -1) || (fd < 0) || (!line))
 		return (-1);
 	if (tmp == NULL)
