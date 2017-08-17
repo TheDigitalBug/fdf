@@ -41,3 +41,5 @@ The following key are used to move the camera:
   * `X`, `Z` : increment z
   * `G` : Gradient
   * `D` : Diagonal
+  * `A` : Alter Color
+  * `SPACE` : Default
