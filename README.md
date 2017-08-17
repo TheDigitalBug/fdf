@@ -3,14 +3,15 @@
 # Info:
 The goal of this project generate a 3D model from a set of vertex.
 This project is about creating a simplified 3D graphic from 2D map.
-![FDF](/fdf.png?raw=true "FDF PICTURE")
+![FDF](/fdf.gif?raw=true "FDF PICTURE")
+
 
 # Usage:
 ```
 $> make
 $> ./fdf maps/42.fdf
 ```
-
+![FDF](/fdf.png?raw=true "FDF PICTURE")
 # Sample Map:
 ```
 0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0
